@@ -1,5 +1,5 @@
 # 🎚️ Mini Mixing Chart (MPC One+)
-![alt text](<color-coded frequency expanded.png>)
+![alt text](https://github.com/xkyrage/MPC_workflow_doc/blob/main/color-coded%20frequency%20expanded.png)
 - **Kick** → HPF 30 Hz | +60–80 Hz | -200–300 Hz | +2–4 kHz | Comp 4:1, GR 3–5 dB  
 - **Snare** → HPF 100 Hz | +150–200 Hz | -400–600 Hz | +5–8 kHz | Comp 4:1, GR 3–5 dB  
 - **Hi-Hats** → HPF 300 Hz | +8–12 kHz | cut 2–3 kHz | light comp  
