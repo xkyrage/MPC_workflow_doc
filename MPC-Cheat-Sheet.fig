@@ -1,0 +1,70 @@
+{
+  "version": "1.0",
+  "name": "MPC One+ Cheat Sheet",
+  "document": {
+    "children": [
+      {
+        "id": "1:1",
+        "name": "Cheat Sheet",
+        "type": "FRAME",
+        "absoluteBoundingBox": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 720
+        },
+        "backgroundColor": {"r": 0.125, "g": 0.129, "b": 0.141, "a": 1},
+        "children": [
+          {
+            "id": "2:1",
+            "name": "Drums",
+            "type": "TEXT",
+            "absoluteBoundingBox": {"x": 20, "y": 20, "width": 1240, "height": 100},
+            "fills": [{"type": "SOLID", "color": {"r": 0.949, "g": 0.545, "b": 0.51, "a": 1}}],
+            "characters": "🥁 DRUMS\nKick → EQ: +4dB @60–80Hz, -3dB @250Hz | Comp: 4:1, Attack 20ms, Release 60ms, GR 3–5dB\nSnare → EQ: +3dB @150Hz, -2dB @400Hz, +4dB @5–8kHz | Comp: 4:1 Fast Attack GR 3–6dB\nHi-Hats → HPF <500Hz, +3dB @8–12kHz | Reverb Short 0.4–0.8s\nRides → HPF <200Hz, +2dB @10–12kHz | Plate 1.2–1.5s\n808 → +4dB @40–60Hz, -3dB @250Hz | Comp 3:1 Medium GR 3–5dB"
+          },
+          {
+            "id": "2:2",
+            "name": "Bass",
+            "type": "TEXT",
+            "absoluteBoundingBox": {"x": 20, "y": 140, "width": 1240, "height": 80},
+            "fills": [{"type": "SOLID", "color": {"r": 0.773, "g": 0.541, "b": 0.976, "a": 1}}],
+            "characters": "🟣 BASS\nEQ: HPF <30Hz, +3dB @80–100Hz, -3dB @250Hz | Comp: 3:1 Medium Attack GR 3–6dB"
+          },
+          {
+            "id": "2:3",
+            "name": "Melodies",
+            "type": "TEXT",
+            "absoluteBoundingBox": {"x": 20, "y": 240, "width": 1240, "height": 80},
+            "fills": [{"type": "SOLID", "color": {"r": 0.506, "g": 0.831, "b": 0.980, "a": 1}}],
+            "characters": "🔵 MELODIES\nKeys / Leads → HPF <100Hz, +2dB @3–5kHz, +2dB @10–12kHz | Reverb Plate/Hall 1.5–2s | Delay 1/4 or 1/8"
+          },
+          {
+            "id": "2:4",
+            "name": "Pads",
+            "type": "TEXT",
+            "absoluteBoundingBox": {"x": 20, "y": 340, "width": 1240, "height": 80},
+            "fills": [{"type": "SOLID", "color": {"r": 0.647, "g": 0.839, "b": 0.655, "a": 1}}],
+            "characters": "🟢 PADS / ATMOS\nHPF <200Hz, +2dB @8–12kHz | Reverb Hall 2–3s Pre-delay ~30ms | Stereo Width +10–20%"
+          },
+          {
+            "id": "2:5",
+            "name": "Vocals",
+            "type": "TEXT",
+            "absoluteBoundingBox": {"x": 20, "y": 440, "width": 1240, "height": 100},
+            "fills": [{"type": "SOLID", "color": {"r": 1, "g": 0.945, "b": 0.463, "a": 1}}],
+            "characters": "🟡 VOCALS\nEQ: HPF <100Hz, -3dB @250–350Hz, +3dB @2–5kHz, +2dB @10–12kHz\nComp: 3:1 Fast Attack GR 3–6dB\nReverb: Plate 1–1.5s | Delay: Slapback 80–120ms or 1/8 note"
+          },
+          {
+            "id": "2:6",
+            "name": "Master",
+            "type": "TEXT",
+            "absoluteBoundingBox": {"x": 20, "y": 560, "width": 1240, "height": 100},
+            "fills": [{"type": "SOLID", "color": {"r": 0.878, "g": 0.878, "b": 0.878, "a": 1}}],
+            "characters": "⚪ MASTER\nBus Comp: 2:1 Attack 30ms GR 2–3dB\nEQ: +1dB @10kHz, -1dB @250Hz\nLimiter: Ceiling -0.8dB, Loudness -8 to -9 LUFS"
+          }
+        ]
+      }
+    ]
+  }
+}
